@@ -1,0 +1,182 @@
+body{
+    margin: auto;
+}
+a{
+    text-decoration: none
+}
+/* Header Start */
+header{
+    height:60px;
+    background-color:black
+}
+h1 {
+    display: block;
+    font-size: 36px;
+    margin-bottom: 2%;
+    margin-block-start: 10px;
+    margin-inline-start: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+#icon{
+    float:left
+}
+
+#social{
+    float:right
+}
+
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+
+/* header end */
+#filterheading{
+    font-size: 30px;
+    text-align:center;
+}
+#filtersubheading{
+    font-size: 20px;
+    text-align:center;
+}
+#filterlist{
+    margin-left: 25%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+#heading{
+    text-align: center;
+    height: 65px;
+    width: 50%;
+    font-size: 30px;
+    margin-left: 25%;
+    color: black;
+}
+#heading > h2{
+    margin-top: 5%;
+}
+.mainContent{
+    height:1000px;
+    width:75%;
+    margin-left:13%
+}
+#filter{
+    height:975px;
+    width:21%;
+    border:4px solid black;
+    float: left;
+}
+#card{
+    height:975px;
+    width:75%;
+    margin-left:2%;
+    float: left;
+    overflow: scroll;
+    
+}
+
+.foodcontent{
+    height: 300px;
+    width: 98%;
+    box-shadow: 5px 10px 5px gray;
+}
+
+.foodcontent > img{
+    height: 300px;
+    width: 40%;
+    border-radius: 5%;
+}
+
+.breakfastcontent{
+    height: 300px;
+    width: 60%;
+    
+   float: right;
+}
+
+#tilecontainer21{
+    height: 300px;
+    width: 100%;
+
+}
+
+.componentheading{
+    margin-top: 12%;
+    margin-left: 10%;
+
+}
+.componentheading > a{
+    font-size: 35px;
+}
+
+
+.componentsubheading{
+    margin-left: 15%;
+    font-size: 25px;
+    margin-top: 5%;
+
+}
+.button1{
+    font-size: 20px;
+    background-color: green;
+    color: black;
+    margin-left: 9%;
+    margin-top: 11%;
+}
+.button2{
+    background-color: yellow;
+    font-size: 20px;
+    color: black;
+    margin-left: 9%;
+    margin-top: 2%;
+}
+/* footer Start */
+footer{
+    height:250px;
+    background-color: black;
+}
+
+#footercontainer{
+    width: 100%;
+}
+
+.footercontainer1{
+    height: 208px;
+    width: 31%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    box-shadow: 2px 0px 0px white;
+}
+.footercontainer1 > span{
+    color: white;
+    font-size: 30px;
+}
+.footercontainer1 > p{
+    
+    color: white;
+}
+.footercontainer1 > ul > li > a{
+    color: white;
+}
+.footercontainer1 > ul{
+    color: white;
+}
+#social1{
+    float: left;
+    margin-left: 15%;
+    margin-top: 3%;
+    
+}
+#copyright{
+    text-align: center;
+    line-height: 3;
+    font-size: 20px;
+}
+
+/* footer end */
